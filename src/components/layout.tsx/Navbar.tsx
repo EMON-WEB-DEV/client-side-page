@@ -57,7 +57,7 @@ interface Navbar1Props {
   };
 }
 
-const Navbar1 = ({
+const Navbar = ({
   logo = {
     url: "https://www.shadcnblocks.com",
     src: "https://deifkwefumgah.cloudfront.net/shadcnblocks/block/logos/shadcnblockscom-icon.svg",
@@ -303,4 +303,4 @@ const SubMenuLink = ({ item }: { item: MenuItem }) => {
   );
 };
 
-export { Navbar1 };
+export { Navbar};
