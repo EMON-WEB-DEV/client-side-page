@@ -1,6 +1,8 @@
 "use client";
 
-import { Menu, Link } from "lucide-react";
+import Link from "next/link";
+
+
 
 import { cn } from "@/lib/utils";
 
@@ -23,6 +25,7 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
+import { Menu } from "lucide-react";
 
 interface MenuItem {
   title: string;
