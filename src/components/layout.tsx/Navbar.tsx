@@ -1,6 +1,6 @@
 "use client";
 
-import { Book, Menu, Link } from "lucide-react";
+import { Menu, Link } from "lucide-react";
 
 import { cn } from "@/lib/utils";
 
