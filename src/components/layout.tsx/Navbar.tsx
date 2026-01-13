@@ -6,18 +6,15 @@ import { cn } from "@/lib/utils";
 
 import {
   Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
+ 
 } from "@/components/ui/accordion";
 import { Button } from "@/components/ui/button";
 import {
   NavigationMenu,
-  NavigationMenuContent,
   NavigationMenuItem,
   NavigationMenuLink,
   NavigationMenuList,
-  NavigationMenuTrigger,
+
 } from "@/components/ui/navigation-menu";
 import {
   Sheet,
@@ -65,7 +62,7 @@ const Navbar = ({
     url: "https://www.shadcnblocks.com",
     src: "https://deifkwefumgah.cloudfront.net/shadcnblocks/block/logos/shadcnblockscom-icon.svg",
     alt: "logo",
-    title: "Shadcnblocks.com",
+    title: "Client Side Page",
   },
   menu = [
     { title: "Home", 
