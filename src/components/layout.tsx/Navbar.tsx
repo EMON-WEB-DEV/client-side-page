@@ -26,6 +26,7 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 import { Menu } from "lucide-react";
+import { ModeToggle } from "./ModeToggle";
 
 interface MenuItem {
   title: string;
@@ -115,11 +116,12 @@ const Navbar = ({
             </div>
           </div>
           <div className="flex gap-2">
+            <ModeToggle/>
             <Button asChild variant="outline" size="sm">
-              <a href={auth.login.url}>{auth.login.title}</a>
+              <Link href={auth.login.url}>{auth.login.title}</Link>
             </Button>
             <Button asChild size="sm">
-              <a href={auth.signup.url}>{auth.signup.title}</a>
+              <Link href={auth.signup.url}>{auth.signup.title}</Link>
             </Button>
           </div>
         </nav>
@@ -163,11 +165,12 @@ const Navbar = ({
                   </Accordion>
 
                   <div className="flex flex-col gap-3">
+                    <ModeToggle/>
                     <Button asChild variant="outline">
-                      <a href={auth.login.url}>{auth.login.title}</a>
+                      <Link href={auth.login.url}>{auth.login.title}</Link>
                     </Button>
                     <Button asChild>
-                      <a href={auth.signup.url}>{auth.signup.title}</a>
+                      <Link href={auth.signup.url}>{auth.signup.title}</Link>
                     </Button>
                   </div>
                 </div>
